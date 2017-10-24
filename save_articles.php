@@ -76,6 +76,8 @@ $_SESSION['CLOUDANT_DB']=$code;
 					  promoprice: promoprice, qty: qty, weight: weight, datecrpromo: datecrpromo, datestrt: datestrt, datefin: datefin, charity: charity, charityvalue: charityvalue})  
 					//   _attachments: {filename : {content_type: filetype, revpos: 2, digest: "", length: filesize, stub: true} } });
 				console.log(data);
+
+				
 				var file_name=filename[0];
 				var file_size=filesize[0];
 				var file_type=filetype[0];
@@ -96,5 +98,6 @@ $_SESSION['CLOUDANT_DB']=$code;
 					datatype: "application/json",
 					data: data_attachment
 				});
+				/* tralala */
 
     </script>
