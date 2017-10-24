@@ -98,6 +98,5 @@ $_SESSION['CLOUDANT_DB']=$code;
 					datatype: "application/json",
 					data: data_attachment
 				});
-				/* tralala */
 
     </script>
